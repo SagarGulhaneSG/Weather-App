@@ -1,0 +1,18 @@
+
+@import "tailwindcss";
+
+body{
+    background: url(/src/assets/pexels-pixabay-531756.jpg);
+    
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+     
+}
+@media (max-width:400px){
+    body{
+        align-items: start;
+    }
+}
